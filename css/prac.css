@@ -1,0 +1,53 @@
+/*@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,700,400&subset=latin,cyrillic-ext);*/
+
+html{
+/*	background: url('/Hemu_prac/img/crowded-britain_796405c.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	*/
+
+}
+body{
+font-family: 'Archivo Narrow', sans-serif;
+
+}
+#topRow{
+	margin:10px 0px 10px 0px;
+}
+
+#titleBanner{
+	font-size: 2em;
+	background-color: black;
+	color:white;
+}
+#titleBanner,#source{
+	padding:10px;
+}
+#source{
+	margin:20px 0px 0px 0px;
+	font-size: .8em;
+}
+
+ul{
+	list-style-type: decimal;
+}
+
+li:hover{
+	color:blue !important;
+	background-color: white;
+	cursor: pointer;
+}
+
+#chart {
+	color:blue;
+	width:500;
+	font-size:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#causeListDiv{
+background-color:	rgba(245,245,250,.98);
+}

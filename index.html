@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"
+<title></title>
+
+<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+<link rel="stylesheet" href="css/prac.css"/>
+</head>
+<body>
+
+<div class="container-fluid">
+		<div class="row" id="titleBanner">Top Ten Leading Causes of Death in the United States (2012-2014)</div>
+		<div class="row" id="topRow">
+
+					<div class="col-sm-4">
+							<div class="row">
+								<div class="col-sm-12" id="causeListDiv">
+									Leading Causes of Death:
+										<ul id="causeList">
+											<li id="heartDis">Heart Disease</li>
+											<li id="cancer">Cancer</li>
+											<li id="clrd">Chronic Lower Respiratory Diseases</li>
+											<li id="accidents">Accidents (unintentional injuries)</li>
+											<li id="stroke">Stroke (cerebrovascular diseases)</li>
+											<li id="alz">Alzheimer's disease</li>
+											<li id="diabetes">Diabetes</li>
+											<li id="flu">Influenza and pneumonia</li>
+											<li id="neph">Nephritis, nephrotic syndrome, and nephrosis</li>
+											<li id="suicide">Intentional self-harm (suicide)</li>
+								</div>
+							</div>
+
+<!--							<div class="row">
+								<div class="col-sm-12">
+										Info Box
+								</div>
+
+							</div>-->
+
+
+					</div>
+
+					<div class="col-sm-8" id="chart">
+					<div class="col-sm-6">
+						Death Rates by U.S. State<br>
+						Interactive dotplot - hover over a dot to learn more<br>
+					</div>
+					<div class="col-sm-6">
+						Sort by:
+						<form name="sortForm">
+									<input type="radio" name="sort" value="aa_rate" >Value
+									<input type="radio" name="sort" value="state" checked>State
+						</form>
+					</div>
+					</div>
+		</div>
+		<div class="row" id="bottomRow">
+				<div id="source">
+				Data Source:
+
+				Centers for Disease Control and Prevention, National Center for Health Statistics.
+				Underlying Cause of Death 1999-2014 on CDC WONDER Online Database, released 2015.
+				Data are from the Multiple Cause of Death Files, 1999-2014, as compiled from data
+				 provided by the 57 vital statistics jurisdictions through the Vital Statistics
+				 Cooperative Program.
+			</div>
+		</div>
+</div>
+
+	<script src="bower_components/d3/d3.min.js"></script>
+	<script src="bower_components/lodash/dist/lodash.min.js"></script>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<script src="js/dotplot.js"></script>
+
+</body>
+
+</html>

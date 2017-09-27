@@ -1,0 +1,31 @@
+[{
+	"id": "accidents",
+	"file": "Accidents"
+}, {
+	"id": "alz",
+	"file": "Alzheimers"
+}, {
+	"id": "stroke",
+	"file": "CerebrovascularDiseases"
+}, {
+	"id": "clrd",
+	"file": "CLRD"
+}, {
+	"id": "diabetes",
+	"file": "Diabetes"
+}, {
+	"id": "flu",
+	"file": "FluPneu"
+}, {
+	"id": "heartDis",
+	"file": "HeartDisease"
+}, {
+	"id": "cancer",
+	"file": "MalignantNeoplasms"
+}, {
+	"id": "neph",
+	"file": "Neph"
+}, {
+	"id": "suicide",
+	"file": "Suicide"
+}]
