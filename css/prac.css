@@ -39,13 +39,21 @@ li:hover{
 	background-color: white;
 	cursor: pointer;
 }
-
+.chartTitle{
+    color:black;
+	width:500;
+	font-size:1.2em;
+	margin-left:auto;
+	margin-right:auto;
+        text-align: center;
+}
 #chart {
 	color:blue;
 	width:500;
 	font-size:10px;
 	margin-left:auto;
-	margin-right:auto;
+        text-align: center;
+	/*margin-right:auto;*/
 }
 
 #causeListDiv{

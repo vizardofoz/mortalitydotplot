@@ -15,7 +15,7 @@
 		<div class="row" id="titleBanner">Top Ten Leading Causes of Death in the United States (2012-2014)</div>
 		<div class="row" id="topRow">
 
-					<div class="col-sm-4">
+					<div class="col-sm-2">
 							<div class="row">
 								<div class="col-sm-12" id="causeListDiv">
 									Leading Causes of Death:
@@ -43,18 +43,26 @@
 
 					</div>
 
-					<div class="col-sm-8" id="chart">
-					<div class="col-sm-6">
-						Death Rates by U.S. State<br>
-						Interactive dotplot - hover over a dot to learn more<br>
-					</div>
-					<div class="col-sm-6">
-						Sort by:
-						<form name="sortForm">
-									<input type="radio" name="sort" value="aa_rate" >Value
-									<input type="radio" name="sort" value="state" checked>State
-						</form>
-					</div>
+					<div class="col-sm-10">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                <div class="chartTitle">
+                                                    Death Rates by U.S. State (Interactive dotplot)
+                                                <div>
+                                                    
+                                                    <form name="sortForm">Sort by: 
+                                                                            <input type="radio" name="sort" value="aa_rate" > Value
+                                                                            <input type="radio" name="sort" value="state" checked> State
+                                                    </form>
+                                                    </div>
+                                                    
+                                                </div>
+                                                 </div> 
+                                                <div class="row">
+                                                    <div id="chart"></div>
+                                                </div>  
+                                            </div>
+                                            
 					</div>
 		</div>
 		<div class="row" id="bottomRow">

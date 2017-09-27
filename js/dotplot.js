@@ -91,7 +91,7 @@ var dotplot=d3.select('#chart').append('svg')
 
 d3.select('#dotplot').append('text')
 	.text("Deaths/100,000 Persons")
-	.attr("x",250)
+	.attr("x",275)
 	.attr("y",590)
 
 //reference line
